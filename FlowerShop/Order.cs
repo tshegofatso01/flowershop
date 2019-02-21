@@ -10,8 +10,18 @@ namespace FlowerShop
         private bool isDelivered = false;
         public int Id { get; }
 
-        public double Price { get; }
-        public double Profit { get; }
+        // should apply a 20% mark-up to each flower.
+        public double Price {
+            get {
+                return 0;
+            }
+        }
+
+        public double Profit {
+            get {
+                return 0;
+            }
+        }
 
         public IReadOnlyList<IFlower> Ordered {
             get {
